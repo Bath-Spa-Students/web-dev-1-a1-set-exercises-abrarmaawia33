@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, sans-serif; /* font style */
+    background-color: rgb(110, 135, 107); /* background color */
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center; /* main text in center*/
+}
+
+.colored-box {
+    width: 1000px; /* Width of the box */
+    height: 100px; /* Height of the box */
+    background-color: #405437; /* Background color */
+    border-radius: 1rem; 
+    text-align: left; /* text align to the left*/
+    color: #ffffff;/* color of the text*/
+}
+
+/* styling a table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+
