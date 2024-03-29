@@ -1,0 +1,76 @@
+*{
+    box-sizing : border-box;
+}
+
+html{
+    background-image: url("Wallpaper\ Glitter\ 4.jpeg");/* adding a wallpaper as a background in html*/
+}
+
+/* Body Styling */
+body {
+    height: 100%;/* size of the page*/
+    color: white;
+    font-size: 13px;
+    font-family: Arial, sans-serif; /* styling the font of the texts*/
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    padding: 20px; 
+    width: 100%; 
+    margin: 2 auto; 
+}
+  
+/* title of the theme */
+h1{
+text-align: center;
+color: white;
+font-family: Arial, sans-serif,Cursive;
+font-size: 70px;
+}
+/* adding style to the title by using transparent*/
+h1:hover{
+    -webkit-text-stroke: 2px #3c60ff;
+    color: transparent;
+}
+
+/* sizing all the images*/
+.image-container1,
+.image-container2,
+.image-container3 {
+    display: inline-block; /* Display the image containers inline */
+    vertical-align: top; /* Align the image containers to the top */
+    width: 30%; /* Set the width of each container to 25% */
+    position: relative; /* Maintain relative positioning */
+    margin-right: 40px; /* Adding space between the images */
+    margin-right: 5px; /* Adding space between the images */
+}
+
+/* first image*/
+.image-container1 img{
+    max-width: 90%; /* Set maximum width for images */
+    height: auto; /* Maintain aspect ratio */
+    filter: blur(1px); /* Applying blur filter to blur the image */
+    border-radius:1rem;/* styling the corners in each image*/
+}
+
+/* second image*/
+.image-container2 img{
+    max-width: 90%; /* Set maximum width for images */
+    height: auto; /* Maintain aspect ratio */
+    filter: grayscale(100%); /* Applying grayscale filter to change it to black and white */
+    border-radius:1rem;/* styling the corners in each image*/
+}
+
+/* third image*/
+.image-container3 img{
+    max-width: 90%; /* adding maximum width for images */
+    height: auto; /* Maintain aspect ratio */
+    filter: brightness(200%); /* Applying  brightness filter to bright the image over 100% */
+    border-radius:1rem;/* styling the corners in each image*/
+}
+
+
+
+
+
+
