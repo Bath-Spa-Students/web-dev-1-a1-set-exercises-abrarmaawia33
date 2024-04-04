@@ -1,0 +1,133 @@
+
+html{
+  height:100%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+  }
+  
+  header {
+    background-color: #17072b;
+    color: #fff;
+    padding: 10px;
+    
+  }
+  .container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-family:"Tahoma";
+  }
+
+  nav {
+    text-align: center;
+ 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px; color: #fff; 
+    text-decoration: none;
+  }
+
+  nav ul li a {
+    display: inline;
+    margin-right: 20px; 
+    color: #fff; 
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #ff0;
+  }
+
+  .welcome{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 17px;
+  }
+  main {
+    padding: 20px;
+  }
+
+
+.line-up h2{
+  width: 100%;
+    margin: 0 auto;
+    font-size: 30px;
+    position: absolute;
+    top:5%;
+    left:7%;
+}
+
+  .line-up{
+    width: 25%;
+    height:50%;
+    margin: 0 auto;
+    background-color: #172d67;
+    color: #fff;
+    padding: 40px;
+    position: absolute;
+    left: 68%;
+    top:30%;
+    font-size: 30px;
+    text-align: left;
+  }
+ 
+ .image1{
+    display: block;
+    position: absolute;
+    right:18%;
+    top:65%;
+    max-width: 100%; 
+  }
+
+  .image2{
+    display: block;
+    position: absolute;
+    right:4%;
+    top:65%;
+    max-width: 100%; 
+  }
+
+  article p, p, p{
+    width: 100%;
+    margin-right: 5px; 
+      font-size: 18px;  
+      top:30px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .digi-fest{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+
+  footer {
+    background-color: #8c15e9;
+    color: #fff;
+    padding: 2px;
+    position: relative;
+  }
+
+
+  
+  
+  
+  
+  
