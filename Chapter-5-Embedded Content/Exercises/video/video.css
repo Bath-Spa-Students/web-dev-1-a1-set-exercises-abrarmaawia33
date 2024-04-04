@@ -1,0 +1,24 @@
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(19, 19, 45);
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+video {
+    max-width: 200%;
+    max-height: 200%;
+    align-items: center;
+}
