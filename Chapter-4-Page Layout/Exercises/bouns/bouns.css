@@ -15,88 +15,62 @@ body{
     top:70px;
     left:30px;
 }
-
+/* Styling for the header */
 header{
-    position: fixed;
+    position: fixed; /* Fixed positioning to stick the header on top */
     top:0;
     left:0;
     width:100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 99;
+    padding: 20px 100px; /* Padding around the header content */
+    display: flex; /* Flex layout for arranging items */
+    justify-content: space-between; /* Space between the items */
+    align-items: center; * Center align items vertically */
+    z-index: 99;  /* Stacking order */
 }
-
+/* Styling for the heading inside the header */
 .study{
-    font-size: 40px;
-    color: #fff;
-    user-select: none;
+    font-size: 40px; /* font size */
+    color: #fff;/* color of the text */
+    user-select: none; /* Disable text selection */
 }
-
+/* Styling for navigation links */
 .navigation a{
-    position: relative;
-    font-size: 1.1em;
-    color: white;
+    position: relative;/* Relative positioning */
+    font-size: 1.1em;/* font size */
+    color: white;/* color of the text */
     text-decoration: none;
     font-weight: 500;
     margin-left:40px ;
   
 }
+/* Hover effect for navigation links */
 .navigation a:hover{
-color:#154821;
+color:#154821; /* Text color on hover */
 }
-
+/* styling the table */
 table, th, td {
     border:5px solid #154821;
     margin-top: 90px;
   }
 
-
+/* Styling h2 elements */
   h2 {
     background-color: rgb(124, 171, 114);
-    width: 800px;
-    border: 15px solid #154821;
-    padding: 20px;
+    width: 800px;/* Width  */
+    border: 15px solid #154821; /* Border */
+    padding: 20px; /* Padding */
     margin: auto; 
-    font-size: 30px;
+    font-size: 30px; /* Font size */
     position: absolute;
     top: 2%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
-    background-image: url(pic.png);
-    background-repeat: no-repeat;
+    background-image: url(pic.png); /* Background image */
+    background-repeat: no-repeat; /* no repeating of the image */
     background-position: right;
-    background-size: contain;
+    background-size: contain; /* Size of background image */
   }
   
 
 
 
- /*.html{
-  background-color: rgb(124, 171, 114);
-  width: 700px;
-  border: 15px solid #154821;
-  padding: 50px;
-  margin: 10px;
-  font-size: 18px;
-  float: left;
-  background-image: url(html.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size:contain;
-  }
-
-.css{
-    background-color: rgb(124, 171, 114);
-    width: 700px;
-    border: 15px solid #154821;
-    padding: 50px;
-    margin: 10px;
-    font-size: 18px;
-    position: absolute;
-    left:50%;
-    top:20%;
-    float: left; 
-}
-  
