@@ -22,7 +22,7 @@ header{
     padding: 20px 100px; /* Padding around the header content */
     display: flex; /* Flex layout for arranging items */
     justify-content: space-between; /* Space between the items */
-    align-items: center; * Center align items vertically */
+    align-items: center; /* Center align items vertically */
     z-index: 99;  /* Stacking order */
 }
 /* Styling for the heading inside the header */
@@ -70,8 +70,4 @@ table, th, td {
   }
   
 
-<<<<<<< Updated upstream
 
-
-=======
->>>>>>> Stashed changes
