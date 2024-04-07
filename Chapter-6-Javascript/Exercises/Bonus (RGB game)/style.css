@@ -1,0 +1,92 @@
+/*styling the page */
+body {
+	background-image: url("image2.jpeg");/* adding background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+/* styling the three circles all the same*/
+.circle {
+	width: 30%;
+	background:purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 70%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+/* styling a white big box in the back */
+.all{
+    width: 650px;
+    height: 450px;
+    border-radius: 15px;
+    border: solid 5px #000000;
+    background-color: white;
+    position: absolute;
+    align-items: center;
+    left: 23%;
+    top: 17%;
+}
+/* styling the circles */
+#container {
+	margin: 50px auto;
+	max-width: 600px;
+}
+/* styling the heading ( the title of the game )*/
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	background: rgb(255, 255, 255);
+    border-radius: 13px;
+	margin: 0; 
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/* styling the size of ( RGB)*/
+#colorDisplay {
+	font-size: 200%;
+}
+
+/* styling the color of the button */
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+    align-items: center;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+button:hover {
+	color: white;
+	background: rgb(0, 0, 0);
+}
+
