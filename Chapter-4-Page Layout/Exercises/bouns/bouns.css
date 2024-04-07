@@ -2,13 +2,11 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, rgb(65, 103, 57), rgb(124, 171, 114));
-    background-repeat: no-repeat;
+    background-color: rgb(124, 171, 114);
     font-family: Arial, sans-serif;
 }
 
 body{
-    height:100%;
     width: 900px;
     margin: 100px;
     position: absolute;
@@ -72,5 +70,8 @@ table, th, td {
   }
   
 
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
