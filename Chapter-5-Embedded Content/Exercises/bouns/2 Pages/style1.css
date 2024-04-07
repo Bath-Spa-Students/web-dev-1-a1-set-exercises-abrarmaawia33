@@ -1,0 +1,148 @@
+/* styling the html page */
+html {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Styling for input elements */
+    input {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    height:100px;
+    border-radius: 50px;
+    border: solid 3px rgb(255, 255, 255);
+    align-items: center;
+    }
+    /* Styling for div elements */
+    div {
+    margin: 8px 0px;
+    }
+    /* Styling for buttons */
+    button {
+    padding: 10px;
+    background-color: #d9ff00;
+    color: #000000;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 15px;
+    align-items: center;
+    position:absolute;
+    top:53%;
+    }
+
+ /* Styling for heading 1 */
+    h1{
+      font-size: 50px;
+      color: white;
+      text-align: right;
+      position: absolute;
+      top:0;
+      left:60%;
+      padding-bottom: 0;
+  }
+  /* Styling for the grid container */
+  .grid-container {
+      display: grid;/* Use grid layout */
+      grid-template-columns: auto auto auto;
+      gap: 15px;/* Set gap between the boxes */
+      justify-content: flex-end; /* Aligns the grid to the right */
+      align-items: flex-start; /* Aligns the grid to the top */
+      position: absolute;
+      top: 15%;
+      right: 0;
+      margin: 20px; 
+  }
+   /* Styling the grid items (all boxes) */ 
+  .grid-container > div {
+      width: 200px;
+      height:150px;
+      padding: 0;
+      margin: 0;
+      font-size: 20px;
+      display: flex;
+      flex-direction: column; /* Display items vertically */
+      justify-content: center; /* Horizontally center the text */
+      align-items: center; /*  center the text */
+      line-height: 1.2; /* Adjust the line height */
+  }
+
+ .audio-button{
+    width: 200px;
+    height:100px;
+    font-family: 'open sans', sans-serif;
+    font-size: 15px;
+    background-color: rgb(50, 57, 145);
+    border: 3px solid rgb(255, 255, 255); 
+    border-radius: 50px;/* styling the corners*/
+    line-height: 2rem;/* Set line height */
+    padding: 0;
+    transition: all 0.3s ease-in-out;/* Adding transition effect */
+}
+/* Hover effect for audio-buttons */
+.audio-button:hover{
+    cursor:pointer;/* Change cursor to pointer on hover */
+    transform: scale(1.1);/* Scale the button on hover */
+    color:white; /* Set text color on hover*/
+    background-color: #6b6bac;/* Change background color on hover */
+}
+
+/* styling for elements with class 'num' */
+.num{
+    text-align: center;
+    font-size: 16px;
+}
+/*styling for elements with class 'name' */
+.name{
+    text-align: center;
+    font-weight: bold;
+}
+/*styling for elements with class 'number' */
+.number{
+    text-align: center;
+    font-size: 14px;
+}
+/* Styling for audio elements */
+#audio,
+#audio2,
+#audio3,
+#audio4,
+#audio5,
+#audio6,
+#audio7,
+#audio8{
+    display: none;/* Hide audio elements by default */
+}
+
+
+/* Styling the circle button*/
+.circle {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff; /* Blue color */
+    border-radius: 50%; /* Creates a circle */
+}
+/* Hover effect for circles */
+.circle:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+/* Styling for pseudo-element after circles */
+.circle::after {
+    content: "";/* Add content */
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 17.3px; /* Triangle pointing right */
+    border-color: transparent transparent transparent white; /* Triangle color */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+  

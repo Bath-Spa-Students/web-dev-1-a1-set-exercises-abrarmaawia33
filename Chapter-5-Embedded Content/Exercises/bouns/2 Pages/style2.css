@@ -1,0 +1,115 @@
+/* styling the whole page */
+html{
+    height:100%;
+    background-image: url(imagebg.jpeg);/* adding background */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    align-items: center;
+}
+
+/* Styling for the grid container */
+.grid-container {
+    display: grid;/* Use grid layout */
+    grid-template-columns: auto auto auto auto ;
+    gap: 5px;/* Set gap between the boxes */
+    padding: 10px;
+    align-items: center;
+
+}
+  /* Styling the grid items (all boxes) */
+.grid-container > div {
+    width: 200px;
+    height:200px;
+    margin: 10px;
+    font-size: 30px;
+    align-items:start; /* Aligning items*/
+    justify-content:end; 
+    flex-direction: column; /* Display items vertically */
+    justify-content: center; /* Horizontally center the text */
+    align-items: center; /* Vertically center the text */
+    
+
+}
+
+/* Styling the buttons */
+button{
+    width: 250px;
+    height:150px;
+    font-family: 'open sans', sans-serif;
+    font-size: 15px;
+    background-color: rgb(50, 57, 145);
+    border: 3px solid rgb(255, 255, 255); 
+    border-radius: 50px;/* styling the corners*/
+    line-height: 2rem;/* Set line height */
+    padding: 40px;
+    transition: all 0.3s ease-in-out;/* Adding transition effect */
+}
+
+/* Hover effect for buttons */
+button:hover{
+    cursor:pointer;/* Change cursor to pointer on hover */
+    transform: scale(1.1);/* Scale the button on hover */
+    color:white; /* Set text color on hover*/
+    background-color: #6b6bac;/* Change background color on hover */
+}
+
+/* Styling for heading 1 */
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+/* styling for elements with class 'num' */
+.num{
+    text-align: center;
+    font-size: 16px;
+}
+/*styling for elements with class 'name' */
+.name{
+    text-align: center;
+    font-weight: bold;
+}
+/*styling for elements with class 'number' */
+.number{
+    text-align: center;
+    font-size: 14px;
+}
+/* Styling for audio elements */
+#audio,
+#audio2,
+#audio3,
+#audio4,
+#audio5,
+#audio6,
+#audio7,
+#audio8{
+    display: none;/* Hide audio elements by default */
+}
+
+/* Styling the circle button*/
+.circle {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff; /* Blue color */
+    border-radius: 50%; /* Creates a circle */
+}
+/* Hover effect for circles */
+.circle:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+/* Styling for pseudo-element after circles */
+.circle::after {
+    content: "";/* Add content */
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 17.3px; /* Triangle pointing right */
+    border-color: transparent transparent transparent white; /* Triangle color */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

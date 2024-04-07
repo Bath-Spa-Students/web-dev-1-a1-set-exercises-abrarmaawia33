@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="java1.js"></script>
+</head>
+<body> 
+<!--circle button to move to the next page-->
+    <a href="index2.html" class="circle"></a>
+ 
+    <div><!--text to speech box-->
+        <input type="text" id="text-to-speech" placeholder="here you enter text speak"/>
+    </div><!--adding speak button-->
+    <div><button type="button"
+        onclick="textToAudio()">Speak</button></div>
+
+<!--heading 1 for the title-->
+        <h1>Audio Sampler</h1>
+        <!--using div sit it in one group-->
+       <div class="grid-container">
+<!--1 audio-->
+        <div onclick="aha()" class="audio-button"><!--audio name-->
+            <span class="num">1</span><br><!--number of the audio-->
+            <audio id="audio" src="ah-ha.mp3" controls></audio>  <!--the link of the audio-->
+            <span class="name">Ah-Ha</span><br> 
+            <span class="number">1.4</span> 
+        </div> 
+<!--2 audio-->            
+        <div onclick="BackOfTheNet()" class="audio-button"><!--audio name-->
+            <span class="num">2</span><br><!--number of the audio-->
+            <audio id="audio2" src="back-of-the-net.mp3" controls></audio>  <!--the link of the audio-->
+            <span class="name">back of the net</span><br> 
+            <span class="number">1.02</span> 
+        </div>
+<!--3 audio-->
+        <div onclick="dan()" class="audio-button"><!--audio name-->
+            <span class="num">3</span><br><!--number of the audio-->
+            <audio id="audio3" src="dan.mp3" controls></audio>  <!--the link of the audio-->
+            <span class="name">Dan!</span><br> 
+            <span class="number">0.5</span> 
+        </div>
+<!--4 audio-->    
+        <div onclick="emailoftheevening()" class="audio-button"><!--audio name-->
+            <span class="num">4</span><br><!--number of the audio-->
+            <audio id="audio4" src="emailoftheevening.mp3" controls></audio><!--the link of the audio-->  
+            <span class="name">email of the evening</span><br> 
+            <span class="number">1.38</span> 
+        </div>
+<!--5 audio-->    
+        <div onclick="hellopartridge()" class="audio-button"><!--audio name-->
+            <span class="num">5</span><br><!--number of the audio-->
+            <audio id="audio5" src="hellopartridge.mp3" controls></audio>  <!--the link of the audio-->
+            <span class="name">hello partridge</span><br> 
+            <span class="number">1.49</span> 
+        </div>           
+<!--6 audio-->            
+        <div onclick="iateascotchegg()" class="audio-button"><!--audio name-->
+            <span class="num">6</span><br><!--number of the audio-->
+            <audio id="audio6" src="iateascotchegg.mp3" controls></audio>  <!--the link of the audio-->
+            <span class="name">i ate a scotch egg</span><br> 
+            <span class="number">1.91</span> 
+        </div>     
+<!--7 audio-->       
+        <div onclick="bangoutoforder()" class="audio-button"><!--audio name-->
+            <span class="num">7</span><br><!--number of the audio-->
+            <audio id="audio7" src="bangoutoforder.mp3" controls></audio>  <!--the link of the audio-->
+            <span class="name">bang out of order</span><br> 
+            <span class="number">1.49</span> 
+        </div>      
+<!--8 audio-->            
+        <div onclick="imconfused()" class="audio-button"><!--audio name-->
+            <span class="num">8</span><br><!--number of the audio-->
+            <audio id="audio8" src="imconfused.mp3" controls></audio>  <!--the link of the audio-->
+            <span class="name">im confused</span><br> 
+            <span class="number">1.07</span> 
+        </div>             
+          </div>
+          
+</body>
+</html>
